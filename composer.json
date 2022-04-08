@@ -23,9 +23,15 @@
         "irc": "irc://irc.freenode.org/cakephp",
         "source": "https://github.com/cakephp/datasource"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Ekimik/core"
+        }
+    ],    
     "require": {
         "php": ">=8.1",
-        "cakephp/core": "^4.0",
+        "cakephp/core": "dev-master",
         "psr/log": "^3.0",
         "psr/simple-cache": "^1.0"
     },
